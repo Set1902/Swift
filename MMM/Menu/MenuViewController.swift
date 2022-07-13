@@ -26,7 +26,7 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 
             }
 
-            let alert = UIAlertController(title: "Предупреждение", message: "Введенного номера нет в базе данных <(", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Предупреждение", message: "Такого номера в базе данных нет", preferredStyle: UIAlertController.Style.alert)
             alert.addAction(UIAlertAction(title: "Готово", style: UIAlertAction.Style.cancel, handler: nil))
             
             self.present(alert, animated: true, completion: nil)
