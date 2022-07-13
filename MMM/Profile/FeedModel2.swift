@@ -11,6 +11,7 @@ protocol FeedModelProtocol2: class {
     func itemsDownloaded1(items: NSArray)
 }
 
+//ллл
 
 class FeedModel2: NSObject, URLSessionDataDelegate {
     
@@ -36,7 +37,7 @@ class FeedModel2: NSObject, URLSessionDataDelegate {
             if error != nil {
                 print("Error")
             }else {
-                print("stocks downloaded1")
+                print("stocks downloaded11")
                 self.parseJSON1(data!)
             }
             
