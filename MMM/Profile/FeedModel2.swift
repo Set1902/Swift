@@ -36,7 +36,7 @@ class FeedModel2: NSObject, URLSessionDataDelegate {
             if error != nil {
                 print("Error")
             }else {
-                print("stocks downloaded")
+                print("stocks downloaded1")
                 self.parseJSON1(data!)
             }
             
@@ -44,7 +44,7 @@ class FeedModel2: NSObject, URLSessionDataDelegate {
         
         task.resume()
     }
-
+    
     func parseJSON1(_ data:Data) {
             
             var jsonResult = NSArray()
